@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The code took the longest to sort random and reverse.
+
+sort2 uses: Merge Sort
+
+How do you know?: The code took the shortest time to sort random.
+
+sort3 uses: Selection sort
+
+How do you know?: This is the only code left

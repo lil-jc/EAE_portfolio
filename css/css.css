@@ -1,0 +1,120 @@
+body {
+    position: relative; 
+    min-height: 100vh;
+}
+
+.background {
+    background-color: #808080;
+    margin: 0%;
+    }
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    }
+  
+.nav-item {
+    float: right;
+    }
+
+.nav-home {
+    float: left;
+    }
+  
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.nav-link:hover {
+    background-color: #111111;
+}
+
+/* center image*/
+.center-img {
+    display: block;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 66%;
+}
+
+/* make image float left*/
+.colum-img-left {
+    float: left;
+    width:48%;
+    margin: 1%;
+}
+
+/*center a div*/
+.div-center {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.row-after {
+    content: "";
+    clear: both;
+}
+
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 450px;
+    margin-bottom: 30px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*center paragraph */
+.paragraph {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+/*title of course attended*/
+.course {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 24px;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    font-family: sans-serif;
+  }
+
+  .background_img {
+    background-image: url("../assets/background/black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+    background-color: #000000;
+    margin: 0%;
+  }
